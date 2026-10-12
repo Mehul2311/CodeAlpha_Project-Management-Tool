@@ -1,0 +1,655 @@
+{
+  "users": [
+    {
+      "id": "usr_aarav",
+      "name": "Aarav Mehta",
+      "email": "aarav.mehta@mumbai-tech.in",
+      "passwordHash": "$2b$10$yASnpjEoDQbgpbWZUz5MS.z9EtQN3EDwtnc/g9DDTF68pa0qY5Mw2",
+      "avatarColor": "bg-amber-600",
+      "phone": "+91 98201 45678",
+      "role": "Founder & Tech Lead",
+      "createdAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "usr_priya",
+      "name": "Priya Nair",
+      "email": "priya.nair@bengaluru-devs.in",
+      "passwordHash": "$2b$10$yASnpjEoDQbgpbWZUz5MS.z9EtQN3EDwtnc/g9DDTF68pa0qY5Mw2",
+      "avatarColor": "bg-emerald-600",
+      "phone": "+91 98450 12345",
+      "role": "Senior Full Stack Engineer",
+      "createdAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "usr_rohan",
+      "name": "Rohan Verma",
+      "email": "rohan.verma@delhi-design.in",
+      "passwordHash": "$2b$10$yASnpjEoDQbgpbWZUz5MS.z9EtQN3EDwtnc/g9DDTF68pa0qY5Mw2",
+      "avatarColor": "bg-blue-600",
+      "phone": "+91 98110 98765",
+      "role": "Lead UI/UX Designer",
+      "createdAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "usr_ananya",
+      "name": "Ananya Iyer",
+      "email": "ananya.iyer@chennai-coders.in",
+      "passwordHash": "$2b$10$yASnpjEoDQbgpbWZUz5MS.z9EtQN3EDwtnc/g9DDTF68pa0qY5Mw2",
+      "avatarColor": "bg-indigo-600",
+      "phone": "+91 98401 54321",
+      "role": "Backend Architect",
+      "createdAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "usr_kabir",
+      "name": "Kabir Singh",
+      "email": "kabir.singh@pune-ventures.in",
+      "passwordHash": "$2b$10$yASnpjEoDQbgpbWZUz5MS.z9EtQN3EDwtnc/g9DDTF68pa0qY5Mw2",
+      "avatarColor": "bg-rose-600",
+      "phone": "+91 98220 87654",
+      "role": "DevOps & Cloud Lead",
+      "createdAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "usr_sneha",
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@hyderabad-ai.in",
+      "passwordHash": "$2b$10$yASnpjEoDQbgpbWZUz5MS.z9EtQN3EDwtnc/g9DDTF68pa0qY5Mw2",
+      "avatarColor": "bg-teal-600",
+      "phone": "+91 98490 32109",
+      "role": "Product Manager",
+      "createdAt": "2026-10-12T19:59:01.763Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj_startup_mvp",
+      "name": "Startup MVP Launch",
+      "key": "MVP26",
+      "description": "Building and launching the B2B SaaS MVP for Bangalore accelerator cohort.",
+      "budget": 1200000,
+      "ownerId": "usr_aarav",
+      "members": [
+        {
+          "userId": "usr_aarav",
+          "role": "owner",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        },
+        {
+          "userId": "usr_priya",
+          "role": "member",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        },
+        {
+          "userId": "usr_rohan",
+          "role": "member",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        },
+        {
+          "userId": "usr_ananya",
+          "role": "member",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        },
+        {
+          "userId": "usr_sneha",
+          "role": "member",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        }
+      ],
+      "columns": [
+        {
+          "id": "col_todo",
+          "title": "To Do",
+          "order": 0
+        },
+        {
+          "id": "col_inprog",
+          "title": "In Progress",
+          "order": 1
+        },
+        {
+          "id": "col_review",
+          "title": "In Review",
+          "order": 2
+        },
+        {
+          "id": "col_done",
+          "title": "Done",
+          "order": 3
+        }
+      ],
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "prj_gst_module",
+      "name": "GST Invoice & E-Way Bill Module",
+      "key": "GSTINV",
+      "description": "Indian tax compliance engine with HSN lookup, GSTR-1 export and NIC portal sync.",
+      "budget": 320000,
+      "ownerId": "usr_aarav",
+      "members": [
+        {
+          "userId": "usr_aarav",
+          "role": "owner",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        },
+        {
+          "userId": "usr_ananya",
+          "role": "member",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        },
+        {
+          "userId": "usr_priya",
+          "role": "member",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        }
+      ],
+      "columns": [
+        {
+          "id": "col_todo",
+          "title": "To Do",
+          "order": 0
+        },
+        {
+          "id": "col_inprog",
+          "title": "In Progress",
+          "order": 1
+        },
+        {
+          "id": "col_review",
+          "title": "In Review",
+          "order": 2
+        },
+        {
+          "id": "col_done",
+          "title": "Done",
+          "order": 3
+        }
+      ],
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "prj_tech_fest",
+      "name": "College Tech Fest 2026",
+      "key": "CTF26",
+      "description": "Annual inter-college hackathon, sponsorships, stage events and portal registration.",
+      "budget": 180000,
+      "ownerId": "usr_aarav",
+      "members": [
+        {
+          "userId": "usr_aarav",
+          "role": "owner",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        },
+        {
+          "userId": "usr_rohan",
+          "role": "member",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        },
+        {
+          "userId": "usr_kabir",
+          "role": "member",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        }
+      ],
+      "columns": [
+        {
+          "id": "col_todo",
+          "title": "To Do",
+          "order": 0
+        },
+        {
+          "id": "col_inprog",
+          "title": "In Progress",
+          "order": 1
+        },
+        {
+          "id": "col_review",
+          "title": "In Review",
+          "order": 2
+        },
+        {
+          "id": "col_done",
+          "title": "Done",
+          "order": 3
+        }
+      ],
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "prj_diwali_sale",
+      "name": "Diwali Sale Campaign 2026",
+      "key": "DIWALI",
+      "description": "Festive promotion, early bird discounts, UPI cashback integration, and landing banners.",
+      "budget": 550000,
+      "ownerId": "usr_sneha",
+      "members": [
+        {
+          "userId": "usr_sneha",
+          "role": "owner",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        },
+        {
+          "userId": "usr_aarav",
+          "role": "member",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        },
+        {
+          "userId": "usr_rohan",
+          "role": "member",
+          "joinedAt": "2026-10-12T19:59:01.763Z"
+        }
+      ],
+      "columns": [
+        {
+          "id": "col_todo",
+          "title": "To Do",
+          "order": 0
+        },
+        {
+          "id": "col_inprog",
+          "title": "In Progress",
+          "order": 1
+        },
+        {
+          "id": "col_review",
+          "title": "In Review",
+          "order": 2
+        },
+        {
+          "id": "col_done",
+          "title": "Done",
+          "order": 3
+        }
+      ],
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_101",
+      "projectId": "prj_startup_mvp",
+      "columnId": "col_todo",
+      "title": "Razorpay & UPI Webhook Integration",
+      "description": "Implement auto-renewal webhook handlers for Indian UPI QR and credit cards.",
+      "priority": "high",
+      "order": 0,
+      "assigneeId": "usr_priya",
+      "dueDate": "2026-10-25",
+      "labels": [
+        "Payments",
+        "Backend"
+      ],
+      "checklist": [
+        {
+          "id": "chk_1",
+          "text": "Generate test webhook secret in Razorpay dashboard",
+          "completed": true
+        },
+        {
+          "id": "chk_2",
+          "text": "Verify SHA256 signature in Express middleware",
+          "completed": true
+        },
+        {
+          "id": "chk_3",
+          "text": "Handle payment.captured and order.paid events",
+          "completed": false
+        },
+        {
+          "id": "chk_4",
+          "text": "Support instant UPI QR generation on checkout",
+          "completed": false
+        }
+      ],
+      "createdBy": "usr_aarav",
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "tsk_102",
+      "projectId": "prj_startup_mvp",
+      "columnId": "col_todo",
+      "title": "Design Dark Mode Dashboard UI",
+      "description": "Provide high-contrast dark slate palette respecting WCAG AA guidelines.",
+      "priority": "medium",
+      "order": 1,
+      "assigneeId": "usr_rohan",
+      "dueDate": "2026-10-28",
+      "labels": [
+        "Design",
+        "UI/UX"
+      ],
+      "checklist": [
+        {
+          "id": "chk_5",
+          "text": "Create Tailwind color tokens for slate-900 surface",
+          "completed": true
+        },
+        {
+          "id": "chk_6",
+          "text": "Check contrast ratio of amber accents",
+          "completed": false
+        }
+      ],
+      "createdBy": "usr_aarav",
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "tsk_103",
+      "projectId": "prj_startup_mvp",
+      "columnId": "col_inprog",
+      "title": "Real-time WebSocket Kanban Board Sync",
+      "description": "Ensure drag-drop events and card ordering updates reflect across all active browsers without reload.",
+      "priority": "high",
+      "order": 0,
+      "assigneeId": "usr_ananya",
+      "dueDate": "2026-10-18",
+      "labels": [
+        "Realtime",
+        "WebSockets"
+      ],
+      "checklist": [
+        {
+          "id": "chk_7",
+          "text": "Attach Socket.IO to Express HTTP server",
+          "completed": true
+        },
+        {
+          "id": "chk_8",
+          "text": "Configure room routing by projectId",
+          "completed": true
+        },
+        {
+          "id": "chk_9",
+          "text": "Broadcast task:moved with optimistic rollback fallback",
+          "completed": true
+        },
+        {
+          "id": "chk_10",
+          "text": "Add presence indicators for active board viewers",
+          "completed": false
+        }
+      ],
+      "createdBy": "usr_aarav",
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "tsk_104",
+      "projectId": "prj_startup_mvp",
+      "columnId": "col_inprog",
+      "title": "Customer Feedback Session with Bangalore Beta Cohort",
+      "description": "Schedule 4 user interview calls with early stage founders in Koramangala & HSR Layout.",
+      "priority": "medium",
+      "order": 1,
+      "assigneeId": "usr_sneha",
+      "dueDate": "2026-10-22",
+      "labels": [
+        "User Research",
+        "Product"
+      ],
+      "checklist": [
+        {
+          "id": "chk_11",
+          "text": "Prepare 10-point question rubric",
+          "completed": true
+        },
+        {
+          "id": "chk_12",
+          "text": "Record session notes and task pain-points",
+          "completed": false
+        }
+      ],
+      "createdBy": "usr_aarav",
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "tsk_105",
+      "projectId": "prj_startup_mvp",
+      "columnId": "col_review",
+      "title": "Auth System with httpOnly JWT & Bcrypt",
+      "description": "Verify token expiration, remember me toggle, and secure cookie credentials transport.",
+      "priority": "high",
+      "order": 0,
+      "assigneeId": "usr_priya",
+      "dueDate": "2026-10-15",
+      "labels": [
+        "Security",
+        "Auth"
+      ],
+      "checklist": [
+        {
+          "id": "chk_13",
+          "text": "Bcrypt salt rounds set to 10",
+          "completed": true
+        },
+        {
+          "id": "chk_14",
+          "text": "httpOnly cookie flag configured",
+          "completed": true
+        },
+        {
+          "id": "chk_15",
+          "text": "Protected route redirection tested",
+          "completed": true
+        }
+      ],
+      "createdBy": "usr_aarav",
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "tsk_106",
+      "projectId": "prj_startup_mvp",
+      "columnId": "col_done",
+      "title": "Setup Domain & Cloud Infrastructure",
+      "description": "Configure DNS, SSL certificates, environment secrets, and CI build pipeline.",
+      "priority": "medium",
+      "order": 0,
+      "assigneeId": "usr_kabir",
+      "dueDate": "2026-10-10",
+      "labels": [
+        "DevOps",
+        "Infra"
+      ],
+      "checklist": [
+        {
+          "id": "chk_16",
+          "text": "Node.js 22 LTS container configured",
+          "completed": true
+        },
+        {
+          "id": "chk_17",
+          "text": "Port 3000 mapped and verified",
+          "completed": true
+        }
+      ],
+      "createdBy": "usr_aarav",
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "tsk_201",
+      "projectId": "prj_gst_module",
+      "columnId": "col_todo",
+      "title": "HSN / SAC Code Auto-complete API",
+      "description": "Provide Indian Goods and Services Tax 4-digit and 6-digit classification dataset lookup.",
+      "priority": "medium",
+      "order": 0,
+      "assigneeId": "usr_ananya",
+      "dueDate": "2026-10-24",
+      "labels": [
+        "Tax",
+        "Compliance"
+      ],
+      "checklist": [
+        {
+          "id": "chk_18",
+          "text": "Import central GST tax rate slabs (5%, 12%, 18%, 28%)",
+          "completed": true
+        },
+        {
+          "id": "chk_19",
+          "text": "Build fuzzy search index for trade descriptions",
+          "completed": false
+        }
+      ],
+      "createdBy": "usr_aarav",
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "tsk_202",
+      "projectId": "prj_gst_module",
+      "columnId": "col_inprog",
+      "title": "E-Way Bill Generation JSON Schema Validation",
+      "description": "Validate consignor, consignee, and vehicle transport distance for NIC portal export.",
+      "priority": "high",
+      "order": 0,
+      "assigneeId": "usr_priya",
+      "dueDate": "2026-10-19",
+      "labels": [
+        "Validation",
+        "GST"
+      ],
+      "checklist": [
+        {
+          "id": "chk_20",
+          "text": "Zod validation for 15-digit GSTIN regex",
+          "completed": true
+        },
+        {
+          "id": "chk_21",
+          "text": "Calculate CGST and SGST splits for intra-state sales",
+          "completed": true
+        }
+      ],
+      "createdBy": "usr_aarav",
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "tsk_301",
+      "projectId": "prj_tech_fest",
+      "columnId": "col_todo",
+      "title": "Finalize Sponsorship Deck for Tech Startups",
+      "description": "Reach out to venture funds and tech firms in Mumbai and Bengaluru.",
+      "priority": "high",
+      "order": 0,
+      "assigneeId": "usr_rohan",
+      "dueDate": "2026-10-29",
+      "labels": [
+        "Sponsorship",
+        "Events"
+      ],
+      "checklist": [
+        {
+          "id": "chk_22",
+          "text": "Draft Title Sponsor package at ₹50,000",
+          "completed": true
+        },
+        {
+          "id": "chk_23",
+          "text": "Send proposals to 15 alumni startups",
+          "completed": false
+        }
+      ],
+      "createdBy": "usr_aarav",
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    },
+    {
+      "id": "tsk_302",
+      "projectId": "prj_tech_fest",
+      "columnId": "col_inprog",
+      "title": "Hackathon Problem Statements Release",
+      "description": "Publish AI, Fintech, and Agritech themes for student teams across India.",
+      "priority": "medium",
+      "order": 0,
+      "assigneeId": "usr_kabir",
+      "dueDate": "2026-10-21",
+      "labels": [
+        "Hackathon",
+        "Content"
+      ],
+      "checklist": [
+        {
+          "id": "chk_24",
+          "text": "Get evaluation rubric approved by faculty",
+          "completed": true
+        }
+      ],
+      "createdBy": "usr_aarav",
+      "createdAt": "2026-10-12T19:59:01.763Z",
+      "updatedAt": "2026-10-12T19:59:01.763Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "cmt_1",
+      "taskId": "tsk_101",
+      "projectId": "prj_startup_mvp",
+      "userId": "usr_priya",
+      "content": "I verified the webhook signature flow with test UPI transactions. Working smoothly!",
+      "createdAt": "2026-10-12T17:59:01.764Z",
+      "updatedAt": "2026-10-12T17:59:01.764Z"
+    },
+    {
+      "id": "cmt_2",
+      "taskId": "tsk_101",
+      "projectId": "prj_startup_mvp",
+      "userId": "usr_aarav",
+      "content": "Badiya kaam Priya! Please make sure failure retries do not trigger duplicate credits.",
+      "createdAt": "2026-10-12T18:59:01.764Z",
+      "updatedAt": "2026-10-12T18:59:01.764Z"
+    },
+    {
+      "id": "cmt_3",
+      "taskId": "tsk_103",
+      "projectId": "prj_startup_mvp",
+      "userId": "usr_ananya",
+      "content": "Tested Socket.IO room isolation with two browser tabs. State updates instantly on card drop.",
+      "createdAt": "2026-10-12T19:29:01.764Z",
+      "updatedAt": "2026-10-12T19:29:01.764Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "userId": "usr_aarav",
+      "type": "comment_added",
+      "title": "New comment from Priya Nair",
+      "message": "I verified the webhook signature flow with test UPI transactions on \"Razorpay & UPI Webhook Integration\".",
+      "link": "/projects/prj_startup_mvp?task=tsk_101",
+      "read": false,
+      "createdAt": "2026-10-12T17:59:01.764Z"
+    },
+    {
+      "id": "notif_2",
+      "userId": "usr_aarav",
+      "type": "task_assigned",
+      "title": "Task Assigned",
+      "message": "Sneha Reddy assigned you to \"Customer Feedback Session with Bangalore Beta Cohort\".",
+      "link": "/projects/prj_startup_mvp?task=tsk_104",
+      "read": false,
+      "createdAt": "2026-10-12T14:59:01.764Z"
+    },
+    {
+      "id": "notif_3",
+      "userId": "usr_priya",
+      "type": "task_assigned",
+      "title": "Task Assigned",
+      "message": "Aarav Mehta assigned you to \"Razorpay & UPI Webhook Integration\".",
+      "link": "/projects/prj_startup_mvp?task=tsk_101",
+      "read": false,
+      "createdAt": "2026-10-12T13:59:01.764Z"
+    }
+  ]
+}
